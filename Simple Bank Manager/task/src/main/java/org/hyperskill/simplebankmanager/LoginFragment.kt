@@ -19,7 +19,7 @@ class LoginFragment : Fragment(R.layout.fragment_login), GetIntentExtraOrDefault
         val loginButton: Button = view.findViewById(R.id.loginButton)
         loginButton.setOnClickListener {
             if (
-                getExtraOrDefault("username", "Lara") == loginUsername.text.toString() &&
+                getExtraOrDefault("username", "user") == loginUsername.text.toString() &&
                 getExtraOrDefault("password", "1234") == loginPassword.text.toString()
             ) {
                 Toast.makeText(
