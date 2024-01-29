@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Simple Bank Manager</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="login">log in</string>
+    <string name="welcome_username">Welcome %1$s</string>
+    <string name="view_balance">view balance</string>
+    <string name="transfer_funds">transfer funds</string>
+    <string name="calculate_exchange">calculate exchange</string>
+    <string name="pay_bills">pay bills</string>
+    <string name="balance">Balance:</string>
+    <string name="amount">$%.2f</string>
+    <string name="account_number">Account number</string>
+    <string name="enter_amount">Enter amount</string>
+    <string name="transfer">transfer</string>
+    <string name="convert_from">Convert from</string>
+    <string name="convert_to">Convert to</string>
+    <string name="calculate">calculate</string>
+    <string name="displayed_text">displayed text</string>
+    <string name="show_bill_info">show bill info</string>
+    <string name="billing_code">Enter code</string>
+    <string-array name="exchange_to_values">
+        <item>EUR</item>
+        <item>GBP</item>
+        <item>USD</item>
+    </string-array>
+</resources>
