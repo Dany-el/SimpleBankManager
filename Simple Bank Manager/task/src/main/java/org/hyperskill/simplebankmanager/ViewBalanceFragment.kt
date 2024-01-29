@@ -12,7 +12,7 @@ class ViewBalanceFragment : Fragment(R.layout.fragment_view_balance), GetIntentE
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        amount = getExtraOrDefault("balance", 100.0)
+        amount = getExtraOrDefault("balance", 200.0)
         val text = getString(R.string.amount, amount)
         Log.i("Amount", "Current balance: $amount")
         view.findViewById<TextView>(R.id.viewBalanceAmountTextView).text = text
