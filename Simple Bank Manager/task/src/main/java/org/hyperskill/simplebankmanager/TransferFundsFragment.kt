@@ -80,7 +80,7 @@ fun isAccountEditTextMatchRegex(accountEditText: EditText?, account: String): Bo
     val isAccountMatchRegex =
         Regex("^(sa|ca)\\d{4}\$").matches(account)
     return if (!isAccountMatchRegex) {
-        accountEditText?.error = "Invalid account number"
+        accountEditText?.error = "Try sa1234 or ca1234"
         false
     } else {
         accountEditText?.error = null
